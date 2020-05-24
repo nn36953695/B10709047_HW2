@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text_name"
+        android:textSize="30dp"
+        android:layout_width="25mm"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+    <EditText
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_width="20mm"
+        android:id="@+id/edit_name"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/text_number"
+        android:textSize="30dp"
+        android:layout_width="25mm"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:text="Number" />
+    <EditText
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_width="20mm"
+        android:id="@+id/edit_number"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="OK"
+        android:onClick="add_customer"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Cancel"
+        android:onClick="cancel"/>
+</RelativeLayout>
